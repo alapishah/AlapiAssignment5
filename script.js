@@ -51,30 +51,6 @@ require([
               digitSeparator: true,
               places: 0
             }
-          }, {
-            fieldName: "Shot",
-            label: "Shoots: ",
-            visible: true,
-            format: {
-              digitSeparator: true,
-              places: 0
-            }
-          }, {
-            fieldName: "Team",
-            label: "Team",
-            visible: true,
-            format: {
-              digitSeparator: true,
-              places: 0
-            }
-          }, {
-            fieldName: "RankingType",
-            label: "Ranking Type",
-            visible: true,
-            format: {
-              digitSeparator: true,
-              places: 0
-            }
           }
                       ]
         }]
@@ -116,3 +92,4 @@ featureLayer.renderer = {
       }
     };
     });
+
